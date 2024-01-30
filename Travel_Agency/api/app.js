@@ -6,7 +6,7 @@ const travelRoutes = require('./api/routes/travelRoutes');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Свързване с базата данни (променете 'mongodb://localhost:27017/travelAgency' с вашия URI)
+
 mongoose.connect('mongodb://localhost:27017/travelAgency', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
